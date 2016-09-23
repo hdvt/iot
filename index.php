@@ -3,7 +3,7 @@
 	include("connect.php"); 	
 	
 	$link=Connection();
-
+hello
 	$result=mysql_query("SELECT * FROM `tempLog` ORDER BY `timeStamp` DESC",$link);
 ?>
 
